@@ -28,8 +28,6 @@ p {
 a {
   text-decoration: none;
   display: inline-block;
-  position: relative;
-  z-index: 10;
 }
 
 .button {
@@ -163,6 +161,7 @@ th, td {
 
 .help_section a {
   color: white;
+  font-weight: 400;
 }
 
 .footer {
