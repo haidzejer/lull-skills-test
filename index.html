@@ -1,54 +1,91 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
     <meta charset="utf-8">
     <title>Lull Landing Page</title>
+
+    <link rel="stylesheet" href="./styles.css">
+
   </head>
+
   <body>
 
     <div class="container-main">
 
       <div class="head-section">
 
-        <img src="" alt="">
+        <div class="header">
 
-        <h1>MEET YOUR NEW MATTRESS</h1>
+          <a href="https://lull.com" class="lull-logo"><img src="./images/lull_logo.png" alt="lull_logo"></a>
 
-        <button type="button" name="button">SEE THE MATTRESS</button>
+        </div>
 
-        <h2>THE MOST COMFORTABLE MATTRESS YOU'VE EVER HAD</h2>
+        <div class="hero">
 
-        <p>Whether you sleep on your back, front, or side, each layer of foam works together to give you and enjoyable night of sleep.</p>
+          <h1>MEET YOUR NEW MATTRESS</h1>
 
+          <a href="https://lull.com/shop" class="button" name="mattress">SEE THE MATTRESS</a>
+
+        </div>
+
+        <div class="comfortable">
+
+          <img src="./images/zzz.png" alt="zzz-image" class="zzz">
+
+          <h2>THE MOST COMFORTABLE MATTRESS YOU'VE EVER HAD</h2>
+
+          <p>Whether you sleep on your back, front, or side, each layer of foam works together to give you and enjoyable night of sleep.</p>
+
+        </div>
 
       </div>
 
       <div class="customer-satisfaction-section">
 
-        <img src="" alt="">
+        <div class="girl_jump">
 
-        <h2>PEOPLE LOVE LULL!</h2>
-        <img src="" alt="">
+          <video id="girl_jump_loop" class="vid" src="./images/girl_jump_loop.mov" controls autoplay loop></video>
 
-        <p>Lull has the best consumer reviews! Lull mattresses include all of the luxury of a top-of-the-line model and a 95% Customer Satisfaction Rating.</p>
+        </div>
 
+
+        <div class="people_love_lull">
+
+          <img src="./images/95_percent.png" alt="95-percent-satisfaction" class="satisfaction">
+
+          <h2>PEOPLE LOVE LULL!</h2>
+
+          <p>Lull has the best consumer reviews! Lull mattresses include all of the luxury of a top-of-the-line model and a 95% Customer Satisfaction Rating.</p>
+
+        </div>
 
       </div>
 
       <div class="quality-section">
 
-        <img src="" alt="">
+        <div class="girl_confetti">
 
-        <img src="" alt="">
-        <h2>PREMIUM QUALITY TO YOUR DOOR</h2>
+          <video id="girl_confetti_loop" type="video/mov" class="vid" src="./images/girl_confetti_loop.mov" controls autoplay loop></video>
 
-        <p>Lull's premium memory foam mattress mattress ships in a box the size of a mini fridge - right to your door.</p>
+        </div>
 
-        <button type="button" name="button">SEE THE MATTRESS</button>
+
+        <div class="premium_quality">
+
+          <img src="./images/box_jungle.png" alt="mattress_box_image" class="box_jungle">
+
+          <h2>PREMIUM QUALITY TO YOUR DOOR</h2>
+
+          <p>Lull's premium memory foam mattress mattress ships in a box the size of a mini fridge - right to your door.</p>
+
+          <a href="https://lull.com/mattress" class="button" name="button">SEE THE MATTRESS</a>
+
+        </div>
 
       </div>
 
-      <div class="contact-section">
+      <div class="help_section">
 
         <h2>CALL, TEXT, OR EMAIL THE SLEEP EXPERTS</h2>
 
@@ -56,21 +93,39 @@
 
         <table>
 
+          <tr>
+
+            <th><a href="tel:1-800-301-5845">1-800-301-5845</a></th>
+
+            <th rowspan="2"><a href="https://help.lull.com/hc/en-us">FAQs</a></th>
+
+          </tr>
+
+          <tr>
+
+            <td><a href="mailto:support@lull.com" target="_top">support@lull.com</a></td>
+
+          </tr>
+
         </table>
 
       </div>
 
       <div class="footer">
 
-        <ul>
-          <li>@copy; 2018 LULL</li>
-          <li>PRIVACY</li>
-          <li>TERMS</li>
-        </ul>
+          <p> &copy; 2018 LULL</p>
+
+          <p><a href="https://lull.com/privacy">PRIVACY</a></p>
+
+          <p><a href="https://lull.com/terms">TERMS</a></p>
 
       </div>
 
     </div>
+
+    <script>
+      var vid = document.getElementsByClassName('vid').autoplay;
+    </script>
 
   </body>
 </html>

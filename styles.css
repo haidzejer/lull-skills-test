@@ -1,6 +1,181 @@
 
+body {
+  margin: 0;
+}
 
+h1 {
+  text-align: center;
+  font-family: 'Avenir';
+  font-weight: 900;
+  font-size: 6em;
+  color: #0b2836;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Avenir';
+  font-weight: 700;
+  font-size: 4.5em;
+}
+
+p {
+  font-family: 'Avenir', 'Roman';
+  font-weight: 400;
+  font-size: 3em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.button {
+  background-color: #f72351;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5% 10%;
+  font-size: 3em;
+  font-family: 'Avenir';
+  font-weight: 400;
+  justify-content: flex-end;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+video {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+table, th, td {
+  font-size: 1.7em;
+  border: 5px solid #56DBD6;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 50px 20px;
+  text-align: center;
+}
 
 .container-main {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.hero {
+  flex-grow: 1;
+  background-image: url("./images/bed_photo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+}
+
+.hero .button {
+  margin-top: 40%;
+}
+
+.comfortable {
+  height: 50vh;
+  margin-bottom: -8%;
+}
+
+.comfortable, .people_love_lull, .premium_quality, .help_section {
+  padding: 9% 9%;
+}
+
+.zzz {
+  float: right;
+  padding-top: 7%;
+  min-width: 25%;
+}
+
+.customer-satisfaction-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.satisfaction {
+  float: right;
+  min-width: 25%;
+}
+
+.quality-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.box_jungle {
+  float:left;
+  min-width: 25%;
+}
+
+.quality-section h2 {
+  margin-left: 35%;
+}
+
+.girl_confetti {
+  margin-bottom: -10px;
+}
+
+.premium_quality {
+  background-color: #f1efea;
+  text-align: center;
+}
+
+.help_section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/our_story_hero_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #05395C;
+  color: white;
+  height: 60vh;
+}
+
+.help_section h2 {
+  margin-bottom: 0;
+}
+
+.help_section h2, .help_section p {
+  text-align: center;
+}
+
+.help_section a {
+  color: white;
+}
+
+.footer {
+  margin: 2% 5%;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer p {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  font-size: 2em;
 }
