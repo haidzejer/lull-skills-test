@@ -178,3 +178,25 @@ th, td {
   text-align: center;
   font-size: 2em;
 }
+
+@media screen and (min-width: 420px) {
+
+  .help_section {
+    height: 100%;
+    background-size: 100% 100%;
+  }
+
+  .hero {
+    height: 100%;
+    background-size: 100% 100%;
+  }
+
+  .hero a {
+    margin-bottom: 10%;
+  }
+
+  .comfortable {
+    height: 100%;
+  }
+
+}
